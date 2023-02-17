@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.app{
+  width: 100%;
+  height: 100vh;
+  display: inline-block;
+  background: #000;
+}
+
+button{
+  height: 25px;
+  width: 50px;
+}
+.newPoint{
+  height: 10px;
+  width: 10px;
+  background:  blueviolet;
+  position: absolute;
+  border-radius: 50%;
+}
