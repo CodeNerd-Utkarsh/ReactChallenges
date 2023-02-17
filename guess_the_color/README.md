@@ -1,3 +1,32 @@
+# About the challenge
+
+1. Create a react app that can :- 
+    * show a button to start the game
+    * a counter with initial vale: 0
+    * after starting the game shows a box (div) with a random generated colour(RGB)
+    * show three buttons with random RGB codes
+    * if user clicks the correct button increment the counter
+    * else decrement the counter >=0 
+# Getting started
+
+1. Clone the git repo
+    ```
+    git clone "repo link here"
+    ```
+2. install the packages and dependencies
+    ```
+    npm install # for npm user
+    or
+    yan # for yarn users
+    ```
+
+3. run and fun
+    ```
+    npm run dev # for npm user
+    or
+    yan dev # for yarn users
+    ```
+    
 # About me
 <h1 align="left">Hey there, I'm Utkarsh Singh 👋</h1>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=CodeNerd-Utkarsh&label=views&color=0e75b6&style=flat" alt="utkarsh singh" /> </p>
@@ -19,24 +48,3 @@
 
 
 <h3 align="center">Show some ❤️ by starring some of the repositories!</h3>
-
-# Getting started
-
-1. Clone the git repo
-    ```
-    git clone "repo link here"
-    ```
-2. install the packages and dependencies
-    ```
-    npm install # for npm user
-    or
-    yan # for yarn users
-    ```
-
-3. run and fun
-    ```
-    npm run dev # for npm user
-    or
-    yan dev # for yarn users
-    ```
-    
