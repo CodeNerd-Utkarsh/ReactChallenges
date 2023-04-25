@@ -27,7 +27,7 @@ function App() {
   function clearPoints() {
     setPoints([])
   }
-  function handleundo() {
+  function handleUndo() {
     const newPoints = [...points]
     const lastPoint = newPoints.pop()
     setPopped([...popped, lastPoint])
@@ -37,7 +37,7 @@ function App() {
 
   return (
     <>
-      <button onClick={handleundo}>Undo</button>
+      <button onClick={handleUndo}>Undo</button>
       <button onClick={clearPoints} >Reset</button>
       <div className="app" onClick={(e) => handleClicks(e)} >
         {points.map((point, idx) => {
